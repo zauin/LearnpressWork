@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Package Name\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-09 10:12+0000\n"
-"PO-Revision-Date: 2021-05-20 21:30+0000\n"
+"PO-Revision-Date: 2021-05-20 23:10+0000\n"
 "Language-Team: 한국어\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: inc/rest-api/class-lp-rest-courses-controller.php:357
 msgid "\"%s\" has been added to your cart."
-msgstr ""
+msgstr "\"%s\" 장바구니에 추가되었습니다."
 
 #: inc/admin/settings/class-lp-settings-emails.php:121
 msgid "\"From\" address"
@@ -48,10 +48,10 @@ msgid "\"From\" name"
 msgstr ""
 
 #: inc/admin/views/user/course-progress.php:16
-#, fuzzy, php-format
+#, php-format
 #| msgid "%d of %d items"
 msgid "%1$d of %2$d items"
-msgstr "수강 현황: %d/%d"
+msgstr "수강현황: %1$s/%2$d"
 
 #: templates/single-course/sidebar/user-progress.php:34
 msgid "%1$d/%2$d"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: templates/single-course/content-item/popup-header.php:34
 msgid "%1$s of %2$d items"
-msgstr ""
+msgstr "수강현황: %1$s/%2$d"
 
 #: inc/user/abstract-lp-user.php:566
 #, php-format
@@ -719,7 +719,7 @@ msgstr ""
 
 #: templates/checkout/account-register.php:43
 msgid "Already had an account?"
-msgstr ""
+msgstr "이미 가입하셨으면,"
 
 #: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:74
 msgid "Amount"
@@ -1094,7 +1094,7 @@ msgstr ""
 msgid ""
 "By completing your purchase you agree to those <a href=\"%1$s\" "
 "target=\"_blank\">%2$s</a>."
-msgstr ""
+msgstr "결제를 하면 <a href=\"%1$s\" target=\"_blank\">%2$s</a>에 동의함을 의미합니다."
 
 #: inc/admin/sub-menus/class-lp-submenu-tools.php:23
 msgid "Caches"
@@ -1238,13 +1238,13 @@ msgstr ""
 #: templates/checkout/guest-checkout.php:33
 msgctxt "checkout sign in link"
 msgid "Sign in"
-msgstr ""
+msgstr "로그인"
 
 #: templates/checkout/account-login.php:53
 #: templates/checkout/guest-checkout.php:41
 msgctxt "checkout sign up link"
 msgid "Sign up"
-msgstr ""
+msgstr "회원가입"
 
 #: inc/admin/views/meta-boxes/order/child-order.php:15
 msgid "Child orders"
@@ -1599,12 +1599,12 @@ msgstr ""
 
 #: inc/widgets/course-progress.php:32
 msgid "Course Progress"
-msgstr ""
+msgstr "진행률"
 
 #: inc/admin/views/user/course-progress.php:28
 #: templates/single-course/sidebar/user-progress.php:41
 msgid "Course progress:"
-msgstr ""
+msgstr "진행률:"
 
 #: inc/custom-post-types/course.php:88
 msgid "Course sale price must less than the regular price"
@@ -1654,7 +1654,7 @@ msgstr ""
 
 #: templates/single-course/sidebar/user-time.php:31
 msgid "Course will end:"
-msgstr ""
+msgstr "강의종료예정일:"
 
 #: templates/single-course/content-item/nav.php:39
 msgctxt "course-item-navigation"
@@ -2035,11 +2035,11 @@ msgstr ""
 
 #: inc/class-lp-query-list-table.php:141
 msgid "Displaying {{from}} to {{to}} of {{total}} {{item_name}}."
-msgstr ""
+msgstr "{{from}} / {{to}} (총 {{total}}개)"
 
 #: inc/class-lp-query-list-table.php:143
 msgid "Displaying {{from}} to {{to}} of {{total}}."
-msgstr ""
+msgstr "{{from}} / {{to}} (총 {{total}}) "
 
 #: inc/lp-core-functions.php:1133
 msgid "Djiboutian franc"
@@ -2047,7 +2047,7 @@ msgstr ""
 
 #: templates/content-lesson/button-complete.php:22
 msgid "Do you want to complete lesson"
-msgstr ""
+msgstr "이 레슨을 완료했다고 표시할까요?"
 
 #: inc/class-lp-strings.php:25
 #, php-format
@@ -2096,7 +2096,7 @@ msgstr ""
 
 #: templates/checkout/account-login.php:51
 msgid "Don't have an account?"
-msgstr ""
+msgstr "아직 회원이 아니세요?"
 
 #: inc/admin/class-lp-upgrader.php:24
 msgid "Download failed."
@@ -3765,11 +3765,11 @@ msgstr ""
 
 #: inc/course/lp-course-functions.php:1100
 msgid "Lessons Completed"
-msgstr ""
+msgstr "완료한레슨"
 
 #: templates/single-course/sidebar/user-progress.php:25
 msgid "Lessons completed:"
-msgstr ""
+msgstr "완료한레슨"
 
 #: inc/admin/views/meta-boxes/course/settings.php:91
 #: inc/admin/views/meta-boxes/course/tabs/general.php:48
@@ -3899,7 +3899,7 @@ msgstr "로그아웃"
 
 #: templates/checkout/account-login.php:45
 msgid "Lost password?"
-msgstr ""
+msgstr "비밀번호 찾기"
 
 #: templates/global/form-login.php:48
 msgid "Lost your password?"
@@ -4801,11 +4801,11 @@ msgstr "페이팔로 결제하기"
 #: inc/admin/meta-box/fields/payment-order.php:7
 #: inc/admin/views/setup/steps/payment.php:16 templates/checkout/payment.php:25
 msgid "Payment"
-msgstr ""
+msgstr "결제"
 
 #: inc/admin/views/meta-boxes/order/exports-invoice.php:82
 msgid "Payment Medthod"
-msgstr ""
+msgstr "결제 방법"
 
 #: templates/checkout/order-received.php:109
 #: templates/emails/order-items-table.php:49
@@ -4816,7 +4816,7 @@ msgstr "결제 방법"
 #: templates/checkout/payment.php:28
 msgctxt "payment method"
 msgid "Secure Connection"
-msgstr ""
+msgstr "보안연결중"
 
 #: templates/order/confirm.php:64
 msgid "Payment Method:"
@@ -4829,7 +4829,7 @@ msgstr ""
 #: inc/admin/settings/class-lp-settings-payments.php:24
 #: inc/admin/settings/class-lp-settings-payments.php:120
 msgid "Payments"
-msgstr ""
+msgstr "결제"
 
 #: inc/admin/class-lp-setup-wizard.php:355
 #: inc/gateways/paypal/class-lp-gateway-paypal.php:91
@@ -4946,7 +4946,7 @@ msgstr ""
 #: templates/profile/not-logged-in.php:16
 #, php-format
 msgid "Please <a href=\"%s\">login</a> to see your profile content"
-msgstr ""
+msgstr "로그인이 필요합니다."
 
 #: templates/global/before-main-content.php:30
 #, php-format
@@ -4982,19 +4982,19 @@ msgstr ""
 
 #: inc/user/abstract-lp-user.php:2426
 msgid "Please login to enroll course."
-msgstr ""
+msgstr "로그인이 필요합니다."
 
 #: templates/checkout/form.php:21
 msgid "Please login to enroll the course!"
-msgstr ""
+msgstr "로그인이 필요합니다."
 
 #: inc/user/lp-user-functions.php:971
 msgid "Please login to enroll this course"
-msgstr ""
+msgstr "로그인이 필요합니다."
 
 #: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:95
 msgid "Please login to fill in this form."
-msgstr ""
+msgstr "로그인이 필요합니다."
 
 #: inc/class-lp-forms-handler.php:37 inc/class-lp-forms-handler.php:197
 #: inc/curds/class-lp-user-curd.php:2084
@@ -5319,7 +5319,7 @@ msgstr ""
 
 #: templates/single-course/sidebar/user-progress.php:32
 msgid "Quizzes finished:"
-msgstr ""
+msgstr "완료한퀴즈:"
 
 #: inc/admin/views/question/fib-answer-editor.php:47
 msgid "Range"
@@ -5579,7 +5579,7 @@ msgstr ""
 #: templates/single-course/content-item/popup-sidebar.php:15
 msgctxt "search course input placeholder"
 msgid "Search courses content"
-msgstr ""
+msgstr "강의 내용 검색"
 
 #: inc/custom-post-types/course.php:204
 msgid "Search Course Tags"
@@ -5587,7 +5587,7 @@ msgstr ""
 
 #: inc/custom-post-types/course.php:121
 msgid "Search Courses"
-msgstr ""
+msgstr "검색"
 
 #: templates/courses-top-bar.php:19
 #, fuzzy
@@ -5889,13 +5889,12 @@ msgstr ""
 #: templates/checkout/account-login.php:22
 #: templates/checkout/account-register.php:45
 msgid "Sign in"
-msgstr ""
+msgstr "로그인"
 
 #: templates/checkout/account-register.php:18
-#, fuzzy
 #| msgid "Sign out"
 msgid "Sign up"
-msgstr "로그아웃"
+msgstr "회원가입"
 
 #: inc/lp-core-functions.php:1213
 msgid "Singapore dollar"
@@ -6004,7 +6003,7 @@ msgstr ""
 
 #: templates/single-course/buttons/enroll.php:28
 msgid "Start Now"
-msgstr ""
+msgstr "수강 시작"
 
 #: inc/admin/views/user/courses.php:34
 msgid "Start time"
@@ -7220,6 +7219,8 @@ msgid ""
 "When you checkout with Guest order key will send in email, you can use order "
 "key to create order."
 msgstr ""
+"비회원으로 주문했을 경우, 주문키만 있으면 수강한 강의가 복원됩니다. 주문키는 이메일에서 확인하세요. 주문키는 "
+"ORDER60A6D9CDEB6F2 형태입니다."
 
 #: inc/lp-template-functions.php:1604
 msgid "Widgets in this area will be shown in all courses page"
@@ -7328,7 +7329,7 @@ msgstr ""
 
 #: templates/content-lesson/button-complete.php:31
 msgid "You have completed this lesson at "
-msgstr ""
+msgstr "레슨 완료일:"
 
 #: inc/emails/class-lp-email-enrolled-course-user.php:31
 msgid "You have enrolled course"
@@ -7373,7 +7374,7 @@ msgstr ""
 
 #: templates/single-course/sidebar/user-time.php:25
 msgid "You started on:"
-msgstr ""
+msgstr "수강시작일:"
 
 #: inc/class-lp-strings.php:22
 msgid "You've already completed quiz."
