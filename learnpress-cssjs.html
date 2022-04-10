@@ -1,6 +1,26 @@
+/*  모바일 */
+@media (max-width: 767px) {
+	/* 강의 학생수 줄떨어짐 방지	 */
+	.meta-number {
+		letter-spacing: -0.01rem;
+	}
+
+	.lp-archive-courses .learn-press-courses-header {
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.lp-courses-bar {
+		margin-bottom: 15px;
+	}
+}
+
+div.meta-item.meta-item-quiz {
+	display: none !important;
+}
+
 /*Icons style */
 .icon-style	img{
-	 background: var(--nv-secondary-accent);
+	background: var(--nv-secondary-accent);
   padding: 16px;
 }
 
@@ -15,6 +35,16 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
     margin: 0 0 4px 0;
     padding: 0;
   color:white;
+}
+
+.nv-comment-content a, .nv-content-wrap a:not(.button):not(.wp-block-file__button) {
+	text-decoration:none;
+}
+
+.lp-archive-courses .learn-press-courses-header {
+    float: left;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* Change the color of the required mark */
@@ -42,7 +72,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-field-textarea t
 
 /* Style the text and email inputs */
 div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=email]{
-
+	
 	 background-color: white;
     box-sizing: border-box;
     border-radius:0px;
@@ -68,7 +98,7 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
 		text-transform:uppercase;
 		font-weight:600;
     padding: 15px 25px;
-
+	
 }
 
 div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form input[type=submit]:focus, div.wpforms-container-full .wpforms-form input[type=submit]:active, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:focus, div.wpforms-container-full .wpforms-form button[type=submit]:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
@@ -79,7 +109,7 @@ div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-c
 		text-transform: uppercase;
 		font-weight:600;
     padding: 15px 25px;
-
+	
 }
 
 div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form input[type=submit]:focus, div.wpforms-container-full .wpforms-form input[type=submit]:active, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:focus, div.wpforms-container-full .wpforms-form button[type=submit]:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:focus{
@@ -139,3 +169,14 @@ div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-c
 	text-align: center;
 	color: #219014;
 }
+
+#learn-press-course-tabs .course-tab-panels .course-tab-panel .course-description p {
+	font-weight: 400;
+}
+
+
+#popup-course #popup-content #learn-press-content-item .content-item-wrap .content-item-summary .content-item-description p {
+	
+	font-weight: 400;
+}
+
